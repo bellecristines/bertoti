@@ -1,1 +1,19 @@
-.
+-Requisitos não funcionais na engenharia de software 
+Desempenho performance: Define a rapidez e eficiência do sistema exemplo tempos de resposta e consumo de memória
+Segurança: Garante a proteção dos dados e o controle de quem pode acessar o quê exemplo: criptografia e permissões
+Disponibilidade Confiabilidade Estabelece o quanto o sistema deve ficar "no ar" sem interrupções exemplo uptime de 99%
+Usabilidade: Foca na facilidade de uso e na curva de aprendizado para o usuário final exemplo: interface intuitiva e acessível
+Escalabilidade: Define a capacidade do software de crescer e aguentar mais carga (usuários/dados) sem quebrar.
+
+-Trade offs ( negociação entre requisitos não funcionais)
+Citar e descrever 3 cenários de trade-offs
+Segurança vs. Usabilidade:
+O conflito: Mais travas de segurança (senhas fortes, MFA) tornam o sistema mais difícil de usar.
+Escolha: Apps de banco priorizam Segurança (sacrificam agilidade); Redes sociais priorizam Usabilidade (sacrificam rigor).
+Performance vs. Consistência:
+O conflito: Garantir que todos vejam o dado exato ao mesmo tempo exige processamento lento.
+Escolha: Sistemas bancários priorizam Consistência (dados exatos); Feeds de notícias priorizam Performance (velocidade, mesmo que o dado demore segundos para atualizar para todos).
+Escalabilidade vs. Custo:
+O conflito: Uma infraestrutura que aguenta milhões de acessos custa muito caro em servidores e complexidade.
+Escolha: Grandes empresas Netflix priorizam Escalabilidade; Startups iniciantes priorizam Baixo Custo usando sistemas simples que podem travar se crescerem rápido demais
+Em resumo: Não existe o sistema perfeito em tudo; existe o sistema com os trade-offs certos para o seu objetivo.
